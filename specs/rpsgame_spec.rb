@@ -6,7 +6,7 @@ class CustomerTest < MiniTest::Test
 
   def test_win
     expected = RPSGame.check_win("rock")
-    assert_equal("Player 2 wins with paper!", expected)
+    assert_equal("Computer wins with paper!", expected)
   end
 
   def test_draw
