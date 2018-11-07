@@ -2,7 +2,7 @@ require("minitest/autorun")
 require('minitest/rg')
 require_relative('../models/rpsgame')
 
-class CustomerTest < MiniTest::Test
+class GameTest < MiniTest::Test
 
   def test_win
     expected = RPSGame.check_win("rock")
